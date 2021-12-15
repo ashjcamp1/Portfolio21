@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="graph/fav.ico"/>
+</head>
+<body id="body" style="opacity: 0;">
+    <div class="wlcm">
+        <div class="accents">
+            <div class="fillcircle"></div>
+            <div class="fillcircle2"></div>
+            <div class="holecircle"></div>
+            <div class="holecircle2"></div>
+            <div class="wobbleline"></div>
+            <div class="wobbleline" style="left:40%; top:50%; transform: rotate(190deg);"></div>
+        </div>
+        <div class="accents2">
+            <img src="graph/topcloud.png" class="topcloud" style="width: 80%;">
+            <img src="graph/wave.png" class="wave" style="width: 80%;">
+        </div>
+        <img src="graph/imgblank.png" class="wlcmname">
+        <img src="graph/wlcmport.png" class="wlcmport" style="width: 47%;">
+    </div>
+    <img src="graph/imgblank.png" class="image">
+    <img src="graph/imgblank.png" class="image1">
+</body>
+
+<div class="about" style="position: absolute; top:250%; width:99%; height: 100%; z-index: 1;">
+    <img src="graph/pfp.png" class="homepic">
+    <img src="graph/aboutcloud.png" class="aboutcloud">
+    <br>
+    <img style="width: 50%; left: 42%; top:28%; position: absolute; text-align: center; font-size:x-large;" src="graph/abttxtout.png">
+    <img style="width: 50%; left: 42%; top:26%; position: absolute; text-align: center; font-size:x-large; filter: brightness(1.75);" src="graph/abttxt.png">
+    <!-- <p class="abouttext" style="width: 45%; left: 45%; top:20%; position: absolute; text-align: center; font-size:x-large;">
+        hello there! my name is ashley campbell, and i'm currently attending iupui. i hope to graduate in the class of 2024 as a computer graphics technology major. 
+        <br>
+        some of my interests include drawing, art history, cartoons, working with children, and education, among other things. strengths that i believe i hold and am able to bring to the table are creating, collaborating, emphasizing, empowering, and uplifting within my business and among my coworkers. overall, my core belief is that art should be an emotional outlet, and stories told through art should emphasize visual creativity in order to add to a unique story. 
+        <br>
+        careers that peak my interest the most are being an animator, 2d illustrator, and character + background designer. i feel like these jobs would let my creative output, unique art style, and intrigue in variety would help me produce more compelling and interesting art for different uses and stories.</p> -->
+</div>
+
+<div class="proj">
+    <div class="accents">
+            <img src="graph/colorcloud.png" class="colorcloud" style="background-size: 20%;">
+            <img src="graph/colorcloud2.png" class="colorcloud2" style="background-size: 20%;">
+            <img src="graph/fadecloud.png" class="fadecloud" style="background-size: 20%;">
+            <img src="graph/colorcloud.png" class="colorcloud" style="background-size: 20%; opacity: 100;">
+            <img src="graph/cloud2.png" class="cloud2" style="width: 80%;">
+            <img src="graph/wave.png" class="wave" style="width: 80%; transform: rotate(190deg); left:0%;">
+    </div>
+    <div class="noosa" style="background: rgba(255, 191, 0, .86)" style="cursor:pointer;" onClick="window.open('noosa.html','_self');">
+        <img src="graph/noosathumbnail.png" class="noosathumb">
+        <img src="graph/noosatitle.png" style="max-width: 70%; position: absolute; left: 15%; top:30%">
+    </div>
+    <img src="noosa/kabi2.png" class="kabi2" style="width: 35%; position:absolute; top:20%; z-index: 1; left: 50%;">
+
+    <div class="paint" style="background: rgba(79, 102, 174, .86)" style="cursor:pointer;" onClick="window.open('paint.html','_self');">
+        <img src="graph/paintthumbnail.png" class="paintthumb">
+        <img src="graph/painttitle.png" style="max-width: 60%; position: absolute; left: 20%; top:35%">
+    </div>
+    <img src="graph/squiggle2.png" class="kabi2" style="width: 28%; position:absolute; top:58%; z-index: 1; left: 10%; ">
+
+    <div class="web" style="background: rgba(255, 191, 0, .86)" style="cursor:pointer;" onClick="window.open('https://codepen.io/ashjcamp/pen/bGgmrdj');">
+        <img src="graph/website.png" class="paintthumb">
+        <img src="graph/personalweb.png" style="max-width: 50%; position: absolute; left: 25%; top:32%">
+    </div>
+    <img src="graph/webaccent.png" class="kabi2" style="width: 28%; position:absolute; top:124%; z-index: 1; left: 50%; opacity: 80%;">
+
+</div>
+
+<img src="graph/colorcloud2.png" class="colorcloud" style="width: 90%; top:220%; left:-50%; opacity: 80%; transform: rotate(30deg);">
+<img src="graph/wave.png" class="wave" style="width: 80%; top:250%">
+<img src="graph/fadecloud.png" class="fade" style="position: absolute;width: 90%; top:250%; left:50%">
+
+<img src= "graph/footer.png" class="footer" style="background-size: 20%; top: 247%">      
+    <img src="graph/footertxt.png" style="position: absolute; width: 50%; top: 347%; left:25%">
+    <img style="position: absolute; width: 12%; top: 365%; left:15%" onClick="window.open('https://www.instagram.com/campbellsoupcup/');" src="graph/insta.png">
+    <img style="position: absolute; width: 17%; top: 365%; left:41%" onClick="window.open('https://www.linkedin.com/in/ashley-campbell-iupui/');" src="graph/linked.png">
+    <img style="position: absolute; width: 17%; top: 365%; left:71%" onClick="window.open('https://www.behance.net/campbellsoupcup');" src="graph/behance.png">
+<script>
+window.onload = fadeIn;
+  
+  function fadeIn() {
+      var fade = document.getElementById("body");
+      var opacity = 0;
+      var intervalID = setInterval(function() {
+
+          if (opacity < 1) {
+              opacity = opacity + 0.45
+              fade.style.opacity = opacity;
+          } else {
+              clearInterval(intervalID);
+          }
+      }, 200);
+  }
+</script>
+</html>
